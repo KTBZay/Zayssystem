@@ -56,7 +56,7 @@ interface_sqlite3_64x.UploadData({
     }
 })
 interface_sqlite3_64x.GrabData({
-    tablename: "Test",
+    tablename: string,
     table: {
         arg1: string,
         arg2:  string,
