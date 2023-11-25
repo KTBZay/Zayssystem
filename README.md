@@ -65,14 +65,6 @@ interface_sqlite3_64x.GrabData({
 })
 ```
 
-# Version 1.0.8
-- Added new "Interface.CreateDB" class
+See [Wiki](https://github.com/KTBZay/Zayssystem/wiki/Change-log) for more info on change log
 
-# Version 1.0.3
-- Added new "Interface" class
-- Removed "client" folder
-- Added "sqlite3"
-
-# Version 1.0.1
-- Fixed unable to use "interface" class (npm patch)
-- Added to github
+This change log is the offical log for the npm version
