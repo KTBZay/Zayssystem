@@ -9,61 +9,12 @@ write a express or dns server in 3 line!
 or go to [Current Releases](https://github.com/KTBZay/Zayssystem/releases)
 
 # How to use (Express/Dns - 32x)
-```
-const {Interface32x} = require('zayssystem');
-const interface32x = new Interface32x();
-const interface_express32x = new interface32x.ExpressServer(port, {name: string});
-```
-```
-const {Interface32x} = require('zayssystem');
-const interface32x = new Interface32x();
-const interface_dns_server32x = new interface32x.dns_server();
-```
+![example-1](https://github.com/KTBZay/Zayssystem/assets/97396492/40191c44-0880-4ec6-a920-5f427b517e27)
+![exsample-2](https://github.com/KTBZay/Zayssystem/assets/97396492/ec860510-eecc-4765-bcb4-56bdb8309ea5)
 
 # How to use (Express/Sqlite - 64x)
-```
-const {Interface64x} = require('zayssystem');
-const interface64x = new Interface64x();
-const interface_express64x = new interface64x.CreateExpress({
-    Name: string,
-    Admin: {},
-    Port: number
-})
-```
-```
-const {Interface64x} = require('zayssystem');
-const interface64x = new Interface64x();
-const interface_sqlite3_64x = new interface64x.CreateDB({dbloc: string, dbname: strimg});
-interface_sqlite3_64x.Create({
-    tablename:  string,
-    args: {
-        args1:  string,
-        args2:  string,
-        args3:  string
-    }
-})
-interface_sqlite3_64x.UploadData({
-    tablename: string,
-    table: {
-        arg1:  string,
-        arg2:  string,
-        arg3:  string
-    },
-    Upload: {
-        data1:  string,
-        data2:  string,
-        data3:  string
-    }
-})
-interface_sqlite3_64x.GrabData({
-    tablename: string,
-    table: {
-        arg1: string,
-        arg2:  string,
-        arg3: string
-    }
-})
-```
+![exsample-4](https://github.com/KTBZay/Zayssystem/assets/97396492/91a6ec03-e423-414f-9cd3-0bb90fbc3625)
+![example-5](https://github.com/KTBZay/Zayssystem/assets/97396492/1b317230-b940-41e3-81d6-baa5ccf9cff2)
 
 See [Wiki](https://github.com/KTBZay/Zayssystem/wiki/Change-log) for more info on change log
 
