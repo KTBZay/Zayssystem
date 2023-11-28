@@ -6,7 +6,7 @@ write a express or dns server in 3 line!
   npm i zayssystem
   
 ```
-or go to current release
+or go to (Current Releases)[https://github.com/KTBZay/Zayssystem/releases]
 
 # How to use (Express/Dns - 32x)
 ```
