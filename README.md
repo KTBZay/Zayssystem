@@ -1,21 +1,39 @@
 # Zayssystem
-write a express or dns server in 3 line!
+Create discord bots in secs
 
 ## Install here
 ```
-  npm i zayssystem
+  npm i zayssystem OR npm i zayclient@1.0.1
   
 ```
-or go to [Current Releases](https://github.com/KTBZay/Zayssystem/releases)
+or go to current release
 
-# How to use (Express/Dns - 32x)
-![example-1](https://github.com/KTBZay/Zayssystem/assets/97396492/40191c44-0880-4ec6-a920-5f427b517e27)
-![exsample-2](https://github.com/KTBZay/Zayssystem/assets/97396492/ec860510-eecc-4765-bcb4-56bdb8309ea5)
+# How to use ZayJS
+```
+const {ZayJS} = require('zayssystem');
+const client = new ZayJS();
+client.get(url);
+client.post(url,options = { form: {}})
+client.create(data={id,token})
+```
 
-# How to use (Express/Sqlite - 64x)
-![exsample-4](https://github.com/KTBZay/Zayssystem/assets/97396492/91a6ec03-e423-414f-9cd3-0bb90fbc3625)
-![example-5](https://github.com/KTBZay/Zayssystem/assets/97396492/1b317230-b940-41e3-81d6-baa5ccf9cff2)
+# Version 1.4.7
+- Redid whole package to match up with up-to-date server
+- Added get/post to make your own pos/get request more updates in the future
 
-See [Wiki](https://github.com/KTBZay/Zayssystem/wiki/Change-log) for more info on change log
+# Version 1.3.9
+- Updated Zays Endpoint
+- Added new "ZaysFramework" Property
+- Updated Express in 32x and 64xs
 
-This change log is the offical log for the npm version
+# Version 1.0.8
+- Added new "Interface.CreateDB" class
+
+# Version 1.0.3
+- Added new "Interface" class
+- Removed "client" folder
+- Added "sqlite3"
+
+# Version 1.0.1
+- Fixed unable to use "interface" class (npm patch)
+- Added to github
