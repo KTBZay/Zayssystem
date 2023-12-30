@@ -1,4 +1,4 @@
-# Zayssystem
+# Zayssystem [deprecated]
 Create discord bots in secs
 
 ## Install here
