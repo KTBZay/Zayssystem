@@ -1,18 +1,4 @@
-# Zayssystem
-Create discord bots in secs
+# Zayssystem [Deprecated]
 
-## Install here
-```
-  npm i zayssystem OR npm i zayclient@1.0.1
-```
-or go to current release
+We have moved to [ZaysClient]() We will not be supporting this package anymore
 
-# How to use ZayJS
-```
-const {ZayJS} = require('zayssystem');
-const client = new ZayJS();
-client.get(url);
-client.post(url,options = { form: {}})
-client.create(data={id,token})
-```
-View [ChangeLog](https://github.com/KTBZay/Zayssystem/wiki/Change-log) for more details
